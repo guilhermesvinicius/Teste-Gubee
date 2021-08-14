@@ -1,0 +1,72 @@
+:root{
+    --cor01: #fff;
+    --cor02: #ccc;
+    --cor03: #35004D;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    align-items: center;  
+}
+.logo{
+    display: flex;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+table{
+    width: 80%;
+    padding-top: 20px;
+    margin: auto;
+}
+table th .table td{
+    font-family: sans-serif;
+    padding: 10px;
+    border: 1px solid;
+}
+td{
+    padding: 10px;
+    text-align: left;
+    background-color: var(--cor01);
+    border: 1px solid;
+}
+
+th{
+    padding: 10px;
+    text-align: left;
+    background-color: var(--cor02);
+    border: 1px solid;
+}
+footer{
+    display: flex;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    justify-content: center;
+    height: 150px;
+    background-color: var(--cor03);
+}
+.foocontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;  
+}
+.foologo{
+    display: flex;
+}
